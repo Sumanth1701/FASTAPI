@@ -15,7 +15,7 @@ app = FastAPI()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-@app.post("/sentiment_analysis")
+@app.get("/sentiment_analysis")
 def sentiment_analysis(text: str):
     # Log the input text
     logger.info(f"Received request with text")

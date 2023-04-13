@@ -19,3 +19,24 @@
   }
 }
 2023-04-13 12:07:59,490 - INFO - Returning result=' Positive'
+2023-04-13 12:46:00,823 - INFO - Received request with text
+2023-04-13 12:46:01,606 - INFO - OpenAI response: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": " Positive"
+    }
+  ],
+  "created": 1681370161,
+  "id": "cmpl-74lTVRi3ETZHrRDOGZ3OvS3VVWaIz",
+  "model": "text-davinci-003",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 1,
+    "prompt_tokens": 28,
+    "total_tokens": 29
+  }
+}
+2023-04-13 12:46:01,606 - INFO - Returning result=' Positive'
