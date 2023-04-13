@@ -1,0 +1,21 @@
+2023-04-13 12:07:58,768 - INFO - Received request with text='Naku ee movie chala baga nachindi'
+2023-04-13 12:07:59,490 - INFO - OpenAI response: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": " Positive"
+    }
+  ],
+  "created": 1681367879,
+  "id": "cmpl-74kshJv4BVbTVQp4quN65W8igPQDM",
+  "model": "text-davinci-003",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 1,
+    "prompt_tokens": 28,
+    "total_tokens": 29
+  }
+}
+2023-04-13 12:07:59,490 - INFO - Returning result=' Positive'
